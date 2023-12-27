@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from sklearn.linear_model import LinearRegressor
+from sklearn.linear_model import LinearRegression
 
 
 class LinearRegressor:
@@ -16,7 +16,7 @@ class LinearRegressor:
             if X:
                 if y:
                     # Training the model
-                    reg = LinearRegressor(random_state=0)
+                    reg = LinearRegression()
                     reg.fit(_self.df[X], _self.df[[y]])
                     st.write('Training score: ' + str(round(reg.score(_self.df[X], _self.df[[y]]), 3)))
 
