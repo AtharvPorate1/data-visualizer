@@ -34,7 +34,7 @@ if __name__ == '__main__':
         checked_pairplot = st.checkbox('PairPlot')
         checked_scatterPlot = st.checkbox('ScatterPlot')
         checked_correlationPlot = st.checkbox('Correlation')
-        checked_logisticRegPlot = st.checkbox('LogisticRegPlot')
+        checked_linearRegPlot = st.checkbox('LinearRegPlot')
 
         if checked_pairplot:
             plotGenerator.pairplot()
@@ -48,8 +48,8 @@ if __name__ == '__main__':
             plotGenerator.correlationPlot()
             st.markdown('<hr/>', unsafe_allow_html=True)
 
-        if checked_logisticRegPlot:
-            plotGenerator.logisticRegressionPlot()
+        if checked_linearRegPlot:
+            plotGenerator.linearRegressionPlot()
             st.markdown('<hr/>', unsafe_allow_html=True)
 
         # Linear Regression

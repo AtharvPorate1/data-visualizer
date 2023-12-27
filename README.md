@@ -1,4 +1,4 @@
-# Logistic Regression Web App made with Streamlit
+# Linear Regression Web App made with Streamlit
 
 Author: Leonardo Simões
 
@@ -6,6 +6,9 @@ Author: Leonardo Simões
 To run the project locally after downloading it, 
 install the dependencies 
 and run the `streamlit run streamlit_app.py` command.
+
+To access the application hosted on Streamlit Community Cloud:
+https://multiple-linear-regression.streamlit.app/
 
 
 ## Functionalities
