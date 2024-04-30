@@ -6,8 +6,8 @@ from DataProcessor.LinearRegressor import LinearRegressor
 
 # To run the APP: streamlit run streamlit_app.py
 if __name__ == '__main__':
-    st.header('Linear Regressor')
-    st.markdown('*Author: Leonardo Simões*')
+    st.header('Data Science Mini Project')
+
 
     # Data Loader
     st.header('Data loader')
@@ -53,7 +53,7 @@ if __name__ == '__main__':
             st.markdown('<hr/>', unsafe_allow_html=True)
 
         # Linear Regression
-        st.header('Linear Regression')
-        regressor = LinearRegressor(df)
-        regressor.linear()
-        st.markdown('<hr/>', unsafe_allow_html=True)
+        # st.header('Linear Regression')
+        # regressor = LinearRegressor(df)
+        # regressor.linear()
+        # st.markdown('<hr/>', unsafe_allow_html=True)

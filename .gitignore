@@ -1,1 +1,9 @@
 .idea/
+
+DataProcessor/__pycache__/
+
+./DataProcessor/__pycache__:
+
+venv
+
+
